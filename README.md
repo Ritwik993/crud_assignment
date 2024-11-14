@@ -28,5 +28,8 @@ This project is a Node.js and Express.js backend application for performing CRUD
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/user-management-api.git
+2. To run
+    ```bash
+    node server.js
 
 
