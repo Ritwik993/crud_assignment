@@ -28,7 +28,17 @@ This project is a Node.js and Express.js backend application for performing CRUD
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/user-management-api.git
-2. To run
+
+2. Run
+   ```bash
+   npm install
+
+3. Set up .env
+- MONGO_URI=mongodb://localhost:27017/userdb
+- JWT_SECRET_KEY=ABCXFDJDHBFGJVND
+- PORT=5000
+  
+4. To run
     ```bash
     node server.js
 
